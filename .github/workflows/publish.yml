@@ -31,7 +31,7 @@ jobs:
                   TEMP_DIR="$(mktemp -d --suffix=_website_williamdes)"
                   cp -rp williamdes.eu/public "${TEMP_DIR}"
                   git checkout gh-pages
-                  git ls-files | xargs -n 1 rm
+                  git ls-files | xargs -r -n 1 rm
                   rm -rfd ./*
                   mv "${TEMP_DIR}"/public/* ./
                   rm -rf "${TEMP_DIR}"

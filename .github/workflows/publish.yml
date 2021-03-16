@@ -28,7 +28,7 @@ jobs:
               run: |
                   set -o xtrace
                   make build
-                  TEMP_DIR="$(mktemp -d --suffix=_website_williamdes"
+                  TEMP_DIR="$(mktemp -d --suffix=_website_williamdes)"
                   cp -rp williamdes.eu/public "${TEMP_DIR}"
                   git checkout gh-pages
                   git ls-files | xargs -n 1 rm

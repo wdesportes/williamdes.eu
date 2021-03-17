@@ -12,3 +12,7 @@ indent_style = tab
 
 [williamdes.eu/layouts/*]
 insert_final_newline = false
+
+
+[**/vendor/**]
+insert_final_newline = false

@@ -1,3 +1,27 @@
 baseURL = "https://williamdes.eu/"
-languageCode = "en-us"
+languageCode = "en"
 title = "Williamdes's website"
+copyright = "2014-2021 William Desportes"
+defaultContentLanguage = "fr"
+enableRobotsTXT = true
+uglyURLs = true
+defaultContentLanguageInSubdir = true
+
+[languages]
+  [languages.en]
+    title = "William Desportes's website"
+    description = "William Desportes's personal website"
+    weight = 1
+  [languages.fr]
+    title = "William Desportes - site web"
+    description = "Site web de William Desportes"
+    weight = 2
+
+[params]
+  [params.links]
+    stackOverflow = "https://stackoverflow.com/users/5155484/william-desportes"
+    github = "https://github.com/williamdes"
+    gitlab = "https://gitlab.com/williamdes"
+    twitter = "https://twitter.com/wdesportes"
+    linkedin = "https://www.linkedin.com/in/williamdes"
+    mailto = "mailto:williamdes@wdes.fr"

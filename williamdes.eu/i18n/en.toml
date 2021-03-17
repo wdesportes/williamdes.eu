@@ -1,0 +1,57 @@
+[i_m_a]
+
+[i_m_a.i_m_a]
+other = "I'm a"
+
+[i_m_a.Developer_web]
+other = "web developer"
+
+[i_m_a.solutions_creator]
+other = "solutions creator"
+
+[i_m_a.dev_opti]
+other = "developer that boosts your code"
+
+[i_m_a.Freelancer]
+other = "Freelancer"
+
+[languages_and_tools_title]
+other = "Languages and tools"
+
+[languages_and_tools_intro]
+other = "Here are some of the languages and tools I use and have good knownledge about."
+
+[pma_team_member]
+other = "phpMyAdmin team member"
+
+[footer]
+
+[footer.designed_by]
+other = "Theme designed by"
+
+[footer.motd]
+other = "“I wanted to live the life, a different life. I didn't want to go to the same place every day and see the same people and do the same job. I wanted interesting challenges.” - Harrison Ford"
+
+[menu]
+[menu.labels]
+    languages_and_tools = "Languages and tools"
+
+[resume]
+title = "Resume"
+header = "Here is my professional and coding resume"
+[resume.summary]
+header = "Summary"
+content = "I am a web developer, specialized in the PHP language"
+address = "France, Brittany"
+email = "williamdes@wdes.fr"
+
+[resume.pro]
+title = "Professional Experience"
+
+[resume.pro.needone]
+job_title = "Full-stack developer"
+content = "Ma mission chez Needone en tant que développeur full-stack était d'assurer la maintenance de marketplaces ainsi que de participer à leur création.J'ai également réalisé des tâches dev-ops."
+
+[resume.pro.phpmyadmin]
+job_title = "Full-stack developer"
+content = "Depuis 2018 je suis membre de la team phpMyAdmin, j'y ai contribué sur mon temps libre jusqu'en 2021. Désormais je travaille pour phpMyAdmin la majorité de mon temps en tant que freelance."

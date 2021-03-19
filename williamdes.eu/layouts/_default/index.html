@@ -75,7 +75,7 @@
         | fingerprint "sha512" }}
     <link href="{{ $aosStyle.Permalink }}" rel="stylesheet" integrity="{{ $aosStyle.Data.Integrity }}" crossorigin="anonymous">
     <link rel="preload" href="{{ $aosStyle.Permalink }}" as="style" integrity="{{ $aosStyle.Data.Integrity }}" crossorigin="anonymous">
-    {{ $options := (dict "targetPath" "assets/vendor/aos/aos.css" "outputStyle" "compressed" "enableSourceMap" true) }}
+    {{ $options := (dict "targetPath" "assets/vendor/bootstrap/css/bootstrap.css" "outputStyle" "compressed" "enableSourceMap" true) }}
     {{ $bootstrapStyle := resources.Get "vendor/bootstrap/scss/bootstrap.scss"
         | resources.ExecuteAsTemplate "vendor/bootstrap/scss/bootstrap.scss" .
         | resources.ToCSS $options

@@ -35,6 +35,7 @@ other = "“I wanted to live the life, a different life. I didn't want to go to 
 [menu]
 [menu.labels]
     languages_and_tools = "Languages and tools"
+    open_source_projects = "Open-source projects"
 
 [resume]
 title = "Resume"
@@ -55,3 +56,9 @@ content = "Ma mission chez Needone en tant que développeur full-stack était d'
 [resume.pro.phpmyadmin]
 job_title = "Full-stack developer"
 content = "Depuis 2018 je suis membre de la team phpMyAdmin, j'y ai contribué sur mon temps libre jusqu'en 2021. Désormais je travaille pour phpMyAdmin la majorité de mon temps en tant que freelance."
+
+[opensource_projects_title]
+other = "Open-source projects"
+
+[opensource_projects_intro]
+other = "This open-source projects I maintain or collaborate to."

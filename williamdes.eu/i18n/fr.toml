@@ -36,6 +36,7 @@ other = "“Je voulais vivre la vraie vie, une vie différente. Je ne voulais pa
 
 [menu.labels]
     languages_and_tools = "Languages et outils"
+    open_source_projects = "Projets open-source"
 
 [resume]
 title = "CV"
@@ -56,3 +57,9 @@ content = "Ma mission chez Needone en tant que développeur full-stack était d'
 [resume.pro.phpmyadmin]
 job_title = "Développeur full-stack"
 content = "Depuis 2018 je suis membre de la team phpMyAdmin, j'y ai contribué sur mon temps libre jusqu'en 2021. Désormais je travaille pour phpMyAdmin la majorité de mon temps en tant que freelance."
+
+[opensource_projects_title]
+other = "Open-source projects"
+
+[opensource_projects_intro]
+other = "This open-source projects I maintain or collaborate to."

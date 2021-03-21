@@ -56,7 +56,8 @@
                 "https://gitlab.com/williamdes",
                 "https://github.com/williamdes",
                 "https://twitter.com/wdesportes",
-                "https://www.linkedin.com/in/williamdes"
+                "https://www.linkedin.com/in/williamdes",
+                "https://blog.williamdes.eu"
             ]
         }
     </script>
@@ -141,6 +142,20 @@
                     </a>
                 </li>
                 <li>
+                    <a href="#languages-and-tools" class="nav-link scrollto"
+                        title="{{ i18n "menu.labels.languages_and_tools" }}">
+                        <i class="mdi mdi-code-tags"></i>
+                        <span>{{ i18n "menu.labels.languages_and_tools" }}</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#open-source-projects" class="nav-link scrollto"
+                        title="{{ i18n "menu.labels.open_source_projects" }}">
+                        <i class="mdi mdi-projector-screen"></i>
+                        <span>{{ i18n "menu.labels.open_source_projects" }}</span>
+                    </a>
+                </li>
+                <li>
                     <a href="#facts" class="nav-link scrollto" title="Facts">
                         <i class="mdi mdi-head-lightbulb-outline"></i>
                         <span>Facts</span>
@@ -150,13 +165,6 @@
                     <a href="#resume" class="nav-link scrollto" title="Resume">
                         <i class="mdi mdi-notebook-outline"></i>
                         <span>Resume</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#languages-and-tools" class="nav-link scrollto"
-                        title="{{ i18n "menu.labels.languages_and_tools" }}">
-                        <i class="mdi mdi-code-tags"></i>
-                        <span>{{ i18n "menu.labels.languages_and_tools" }}</span>
                     </a>
                 </li>
             </ul>
@@ -184,6 +192,10 @@
                     title="Stack Overflow"><i class="mdi mdi-stack-overflow"></i></a>
                 <a href="{{ .Site.Params.links.mailto }}" target="_blank" rel="noopener" title="Email"><i
                         class="mdi mdi-email"></i></a>
+                <a href="{{ .Site.Params.links.keybase }}" target="_blank" rel="noopener" title="Keybase"><i
+                        class="mdi mdi-key-chain-variant"></i></a>
+                <a href="{{ .Site.BaseURL }}/public-key.asc" target="_blank" rel="noopener" title="My GPG key"><i
+                        class="mdi mdi-key-link"></i></a>
                 <!--/sse-->
             </div>
         </div>
@@ -197,8 +209,11 @@
 
                 <div class="section-title">
                     <h2>About</h2>
-                    <p>Welcome to my website, I am an autodidact developer. I hope you will enjoy my website and see
-                        interesting things.</p>
+                    <p>Welcome to my website !<br>
+                        I am an autodidact developer, I love to maintain and improve code.<br>
+                        I hope you will enjoy my website and see interesting things.<br>
+                        (I forgot to say I buy domain names, just like collecting stamps ^^)<br>
+                    </p>
                 </div>
 
                 <div class="row">
@@ -206,6 +221,154 @@
 
             </div>
         </section><!-- End About Section -->
+
+        <section id="languages-and-tools" class="box-container">
+            <div class="container" data-aos="fade-up">
+
+                <div class="section-title">
+                    <h2>{{ i18n "languages_and_tools_title" }}</h2>
+                    <p>{{ i18n "languages_and_tools_intro" }}</p>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-lg-2 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in"
+                        data-aos-delay="100">
+                        <div class="icon-box w-100">
+                            <div class="icon">
+                                <i class="icon-php"></i>
+                            </div>
+                            <h4>PHP</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in"
+                        data-aos-delay="200">
+                        <div class="icon-box w-100">
+                            <div class="icon">
+                                <i class="icon-javascript-alt"></i>
+                            </div>
+                            <h4>Javascript</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in"
+                        data-aos-delay="300">
+                        <div class="icon-box w-100">
+                            <div class="icon">
+                                <i class="icon-html5"></i>
+                            </div>
+                            <h4>HTML 5</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in"
+                        data-aos-delay="100">
+                        <div class="icon-box w-100">
+                            <div class="icon">
+                                <i class="icon-laravel"></i>
+                            </div>
+                            <h4>Framework PHP</h4>
+                            <p><a href="https://laravel.com" target="_blank" rel="noopener"
+                                    rel="noopener nofollow"><b>Laravel</b></a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in"
+                        data-aos-delay="200">
+                        <div class="icon-box w-100">
+                            <div class="icon">
+                                <i class="icon-nodejs"></i>
+                            </div>
+                            <h4>Node JS</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in"
+                        data-aos-delay="200">
+                        <div class="icon-box w-100">
+                            <div class="icon">
+                                <i class="icon-database"></i>
+                            </div>
+                            <h4>MySQL/MariaDB</h4>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section id="open-source-projects" class="box-container">
+            <div class="container" data-aos="fade-up">
+
+                <div class="section-title">
+                    <h2>{{ i18n "opensource_projects_title" }}</h2>
+                    <p>{{ i18n "opensource_projects_intro" }}</p>
+                </div>
+
+                <h2><i class="mdi mdi-chevron-right"></i>&nbsp;Projects</h2>
+
+                <div class="row">
+
+                    <div class="col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in"
+                        data-aos-delay="100">
+                        <div class="icon-box w-100">
+                            <div class="icon">
+                                <i class="icon-php"></i>
+                            </div>
+                            <h4><a href="https://github.com/wdes/php-I18n-L10n#readme">php-i18n-l10n</a></h4>
+                            <p>A lib that brings Twig i18n with .mo, .po files support.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in"
+                        data-aos-delay="200">
+                        <div class="icon-box w-100">
+                            <div class="icon">
+                                <i class="icon-php"></i>
+                            </div>
+                            <h4><a href="https://github.com/williamdes/mariadb-mysql-kbs#readme">mariadb-mysql-kbs</a></h4>
+                            <p>A lib that gives you documentation links and data for your MariaDb/MySQL server variables.<br>
+                            Currently used in phpMyAdmin.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <h2><i class="mdi mdi-chevron-right"></i>&nbsp;Long term support</h2>
+
+                <div class="row">
+
+                    <div class="col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in"
+                        data-aos-delay="100">
+                        <div class="icon-box w-100">
+                            <div class="icon">
+                                <i class="icon-php"></i>
+                            </div>
+                            <h4><a href="https://github.com/code-lts/Doctum#readme">Doctum</a></h4>
+                            <p>An API documentation generator, previously named Sami.<br>
+                            It was abandonned since a long time, I look up maintenance with a fork.<br>
+                            Currently used by <a href="https://laravel.com/api/5.8/index.html">Laravel</a> and <a href="https://api.silverstripe.org/4/index.html">Silverstripe CMS</a></p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in"
+                        data-aos-delay="200">
+                        <div class="icon-box w-100">
+                            <div class="icon">
+                                <i class="icon-php"></i>
+                            </div>
+                            <h4><a href="https://github.com/code-lts/laravel-fcm#readme">laravel-fcm</a></h4>
+                            <p>A fork of a lib to send push-notifications.<br>The author did not respond onto, I forked it and maintain it.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
 
         <!-- ======= Facts Section ======= -->
         <section id="facts" class="box-container">
@@ -266,7 +429,7 @@
                                 <i class="mdi mdi-briefcase"></i>
                             </div>
                             <h4>First job</h4>
-                            <p>I did join a company for my first job.</p>
+                            <p>I did join a company for my first job in 2018.</p>
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in"
@@ -447,84 +610,6 @@
             </div>
         </section><!-- End Resume Section -->
 
-        <section id="languages-and-tools" class="box-container">
-            <div class="container" data-aos="fade-up">
-
-                <div class="section-title">
-                    <h2>{{ i18n "languages_and_tools_title" }}</h2>
-                    <p>{{ i18n "languages_and_tools_intro" }}</p>
-                </div>
-
-                <div class="row">
-
-                    <div class="col-lg-2 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in"
-                        data-aos-delay="100">
-                        <div class="icon-box w-100">
-                            <div class="icon">
-                                <i class="icon-php"></i>
-                            </div>
-                            <h4>PHP</h4>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-2 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in"
-                        data-aos-delay="200">
-                        <div class="icon-box w-100">
-                            <div class="icon">
-                                <i class="icon-javascript-alt"></i>
-                            </div>
-                            <h4>Javascript</h4>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-2 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in"
-                        data-aos-delay="300">
-                        <div class="icon-box w-100">
-                            <div class="icon">
-                                <i class="icon-html5"></i>
-                            </div>
-                            <h4>HTML 5</h4>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-2 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in"
-                        data-aos-delay="100">
-                        <div class="icon-box w-100">
-                            <div class="icon">
-                                <i class="icon-laravel"></i>
-                            </div>
-                            <h4>Framework PHP</h4>
-                            <p><a href="https://laravel.com" target="_blank" rel="noopener"
-                                    rel="noopener nofollow"><b>Laravel</b></a>
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-2 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in"
-                        data-aos-delay="200">
-                        <div class="icon-box w-100">
-                            <div class="icon">
-                                <i class="icon-nodejs"></i>
-                            </div>
-                            <h4>Node JS</h4>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-2 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in"
-                        data-aos-delay="200">
-                        <div class="icon-box w-100">
-                            <div class="icon">
-                                <i class="icon-database"></i>
-                            </div>
-                            <h4>MySQL/MariaDB</h4>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-        </section>
-
     </main><!-- End #main -->
 
     <footer id="footer">
@@ -545,6 +630,14 @@
                     title="Stack Overflow"><i class="mdi mdi-stack-overflow"></i></a>
                 <a href="{{ .Site.Params.links.mailto }}" target="_blank" rel="noopener" title="Email"><i
                         class="mdi mdi-email"></i></a>
+                <a href="{{ .Site.Params.links.keybase }}" target="_blank" rel="noopener" title="Keybase"><i
+                        class="mdi mdi-key-chain-variant"></i></a>
+                <a href="{{ .Site.Params.links.blog }}" target="_blank" rel="noopener" title="My blog"><i
+                        class="mdi mdi-newspaper"></i></a>
+                <a href="{{ .Site.Params.links.blog }}" target="_blank" rel="noopener" title="My blog"><i
+                        class="mdi mdi-newspaper"></i></a>
+                <a href="{{ .Site.BaseURL }}/public-key.asc" target="_blank" rel="noopener" title="My GPG key"><i
+                        class="mdi mdi-key-link"></i></a>
                 <!--/sse-->
             </div>
             <div class="copyright">

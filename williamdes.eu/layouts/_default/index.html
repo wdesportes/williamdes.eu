@@ -12,14 +12,14 @@
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@wdesportes" />
     <meta name="twitter:title" content="William Desportes" />
-    <meta name="twitter:description" content="Site Web de William Desportes" />
-    <meta name="twitter:image" content="https://william.wdes.fr/favicon.png" />
+    <meta name="twitter:description" content="{{ .Description | default (.Summary | default .Site.Params.description ) }}" />
+    <meta name="twitter:image" content="{{ .Site.BaseURL }}assets/img/williamdes_x1024.png" />
     <meta name="p:domain_verify" content="2d287a768e344c30a89d1900add7724f" />
     <meta property="og:title" content="William Desportes" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://william.wdes.fr/" />
-    <meta property="og:image" content="https://william.wdes.fr/favicon.png" />
-    <meta property="og:description" content="Site Web de William Desportes" />
+    <meta property="og:url" content="{{ .Site.BaseURL }}" />
+    <meta property="og:image" content="{{ .Site.BaseURL }}assets/img/williamdes_x1024.png" />
+    <meta property="og:description" content="{{ .Description | default (.Summary | default .Site.Params.description ) }}" />
 
     <script type="application/ld+json">
         {
@@ -28,8 +28,8 @@
             "birthDate": "2017-12-07T",
             "email": "williamdes@wdes.fr",
             "telephone":"+33663401864",
-            "image": "https://william.wdes.fr/favicon.png",
-            "url": "https://william.wdes.fr/",
+            "image": "{{ .Site.BaseURL }}assets/img/williamdes_x1024.png",
+            "url": "{{ .Site.BaseURL }}",
             "jobTitle": "Developer",
             "name": "William Desportes",
             "address": {
@@ -63,8 +63,8 @@
     </script>
     <!--/sse-->
     <!-- Favicons -->
-    <link href="{{ .Site.BaseURL }}assets/img/favicon.png" rel="icon">
-    <link href="{{ .Site.BaseURL }}assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="{{ .Site.BaseURL }}assets/logo/williamdes_x64.png" rel="icon">
+    <link href="{{ .Site.BaseURL }}assets/img/williamdes_x128.png" rel="apple-touch-icon">
 
 
     <!-- Vendor CSS Files -->

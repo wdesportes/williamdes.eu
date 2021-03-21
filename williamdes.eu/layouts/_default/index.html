@@ -669,8 +669,9 @@
     <script src="{{ $typedLibJs.Permalink }}" integrity="{{ $typedLibJs.Data.Integrity }}" crossorigin="anonymous"></script>
 
     <!-- Template Main JS File -->
+    {{ $options := (dict "targetPath" "assets/js/main.js" "enableSourceMap" true) }}
     {{ $mainJs := resources.Get "js/main.js"
-        | js.Build "js/main.js"
+        | js.Build $options
         | minify
         | fingerprint "sha512"
     }}

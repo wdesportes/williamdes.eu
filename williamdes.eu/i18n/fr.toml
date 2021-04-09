@@ -10,7 +10,7 @@ other = "développeur web"
 other = "élaborateur de solutions"
 
 [i_m_a.dev_opti]
-other = "développeur qui booste vôtre code"
+other = "développeur qui booste votre code"
 
 [i_m_a.Freelancer]
 other = "Freelance"
@@ -35,8 +35,12 @@ other = "“Je voulais vivre la vraie vie, une vie différente. Je ne voulais pa
 [menu]
 
 [menu.labels]
+    home = "Accueil"
+    about = "À-propos"
     languages_and_tools = "Languages et outils"
     open_source_projects = "Projets open-source"
+    facts = "Faits divers"
+    resume = "CV"
 
 [resume]
 title = "CV"

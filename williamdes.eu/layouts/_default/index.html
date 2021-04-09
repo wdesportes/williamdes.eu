@@ -13,12 +13,12 @@
     <meta name="twitter:site" content="@wdesportes" />
     <meta name="twitter:title" content="William Desportes" />
     <meta name="twitter:description" content="{{ .Description | default (.Summary | default .Site.Params.description ) }}" />
-    <meta name="twitter:image" content="{{ .Site.BaseURL }}assets/img/williamdes_x1024.png" />
+    <meta name="twitter:image" content="{{ .Site.BaseURL }}assets/logo/williamdes_x1024.png" />
     <meta name="p:domain_verify" content="2d287a768e344c30a89d1900add7724f" />
     <meta property="og:title" content="William Desportes" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="{{ .Site.BaseURL }}" />
-    <meta property="og:image" content="{{ .Site.BaseURL }}assets/img/williamdes_x1024.png" />
+    <meta property="og:image" content="{{ .Site.BaseURL }}assets/logo/williamdes_x1024.png" />
     <meta property="og:description" content="{{ .Description | default (.Summary | default .Site.Params.description ) }}" />
 
     <script type="application/ld+json">
@@ -28,17 +28,10 @@
             "birthDate": "2017-12-07T",
             "email": "williamdes@wdes.fr",
             "telephone":"+33663401864",
-            "image": "{{ .Site.BaseURL }}assets/img/williamdes_x1024.png",
+            "image": "{{ .Site.BaseURL }}assets/logo/williamdes_x1024.png",
             "url": "{{ .Site.BaseURL }}",
             "jobTitle": "Developer",
             "name": "William Desportes",
-            "address": {
-                "@type": "PostalAddress",
-                "addressLocality": "Gourin",
-                "addressRegion": "Morbihan",
-                "postalCode": "56110",
-                "streetAddress": "5 impasse bob Gestin"
-            },
             "affiliation" : {
                         "@context": "http://schema.org",
                         "@type": "Organization",
@@ -48,8 +41,8 @@
             "worksFor" : {
                         "@context": "http://schema.org",
                         "@type": "Organization",
-                        "name": "Wdes",
-                        "url": "https://wdes.fr"
+                        "name": "phpMyAdmin",
+                        "url": "https://www.phpmyadmin.net"
             },
             "sameAs": [
                 "https://stackoverflow.com/users/5155484/william-desportes",
@@ -64,7 +57,7 @@
     <!--/sse-->
     <!-- Favicons -->
     <link href="{{ .Site.BaseURL }}assets/logo/williamdes_x64.png" rel="icon">
-    <link href="{{ .Site.BaseURL }}assets/img/williamdes_x128.png" rel="apple-touch-icon">
+    <link href="{{ .Site.BaseURL }}assets/logo/williamdes_x128.png" rel="apple-touch-icon">
 
 
     <!-- Vendor CSS Files -->
@@ -131,14 +124,14 @@
             <ul>
                 <li>
                     <a href="#hero" class="nav-link scrollto active">
-                        <i class="mdi mdi-home" title="Home"></i>
-                        <span>Home</span>
+                        <i class="mdi mdi-home" title="{{ i18n "menu.labels.home" }}"></i>
+                        <span>{{ i18n "menu.labels.home" }}</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#about" class="nav-link scrollto" title="About">
+                    <a href="#about" class="nav-link scrollto" title="{{ i18n "menu.labels.about" }}">
                         <i class="mdi mdi-account"></i>
-                        <span>About</span>
+                        <span>{{ i18n "menu.labels.about" }}</span>
                     </a>
                 </li>
                 <li>
@@ -156,15 +149,15 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#facts" class="nav-link scrollto" title="Facts">
+                    <a href="#facts" class="nav-link scrollto" title="{{ i18n "menu.labels.facts" }}">
                         <i class="mdi mdi-head-lightbulb-outline"></i>
-                        <span>Facts</span>
+                        <span>{{ i18n "menu.labels.facts" }}</span>
                     </a></li>
                 <li>
                 <li>
-                    <a href="#resume" class="nav-link scrollto" title="Resume">
+                    <a href="#resume" class="nav-link scrollto" title="{{ i18n "menu.labels.resume" }}">
                         <i class="mdi mdi-notebook-outline"></i>
-                        <span>Resume</span>
+                        <span>{{ i18n "menu.labels.resume" }}</span>
                     </a>
                 </li>
             </ul>

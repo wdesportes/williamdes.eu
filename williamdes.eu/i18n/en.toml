@@ -34,8 +34,12 @@ other = "“I wanted to live the life, a different life. I didn't want to go to 
 
 [menu]
 [menu.labels]
+    home = "Home"
+    about = "About"
     languages_and_tools = "Languages and tools"
     open_source_projects = "Open-source projects"
+    facts = "Facts"
+    resume = "Resume"
 
 [resume]
 title = "Resume"

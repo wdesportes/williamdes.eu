@@ -15,11 +15,9 @@ other = "développeur qui booste votre code"
 [i_m_a.Freelancer]
 other = "Freelance"
 
-[languages_and_tools_title]
-other = "Languages et outils"
-
-[languages_and_tools_intro]
-other = "Voici des languages et outils que j'utilise et dont j'ai une bonne connaissance."
+[languages_and_tools]
+title = "Languages et outils"
+intro = "Voici des languages et outils que j'utilise et dont j'ai une bonne connaissance."
 
 [pma_team_member]
 other = "membre de la team phpMyAdmin"
@@ -62,8 +60,23 @@ content = "Ma mission chez Needone en tant que développeur full-stack était d'
 job_title = "Développeur full-stack"
 content = "Depuis 2018 je suis membre de la team phpMyAdmin, j'y ai contribué sur mon temps libre jusqu'en 2021. Désormais je travaille pour phpMyAdmin la majorité de mon temps en tant que freelance."
 
-[opensource_projects_title]
-other = "Open-source projects"
+[opensource_projects]
+title = "Projets Open-source"
+intro = "Les projets open-source je maintien ou auxquels je collabore."
+[opensource_projects.section]
+projects = "Projets"
+lts = "Support Long Terme"
 
-[opensource_projects_intro]
-other = "This open-source projects I maintain or collaborate to."
+[about]
+header = "About"
+contents = """
+Bienvenue sur mon sie !<br>
+Je suis un développeur autodidacte, j'aime maintenir et améliorer du code.<br>
+J'espère que vous apprécierez mon site web et y trouverez des choses intéressantes.<br>
+(J'ai oublié de mentionner que j'achète des noms de domaine, comme si c'était une collection de timbres ^^)<br>
+"""
+
+[social_links]
+mail = "E-mail"
+blog = "Mon blog"
+gpg = "Ma clef GPG"

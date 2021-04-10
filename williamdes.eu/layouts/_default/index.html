@@ -174,7 +174,7 @@
             <div class="social-links">
                 <!--sse-->
                 <a href="{{ .Site.Params.links.github }}" target="_blank" rel="noopener" title="GitHub"><i
-                        class="mdi mdi-github"></i></a>
+                    class="mdi mdi-github"></i></a>
                 <a href="{{ .Site.Params.links.gitlab }}" target="_blank" rel="noopener" title="GitLab"><i
                         class="mdi mdi-gitlab"></i></a>
                 <a href="{{ .Site.Params.links.twitter }}" target="_blank" rel="noopener" title="Twitter"><i
@@ -183,11 +183,13 @@
                         class="mdi mdi-linkedin"></i></a>
                 <a href="{{ .Site.Params.links.stackOverflow }}" target="_blank" rel="noopener"
                     title="Stack Overflow"><i class="mdi mdi-stack-overflow"></i></a>
-                <a href="{{ .Site.Params.links.mailto }}" target="_blank" rel="noopener" title="Email"><i
+                <a href="{{ .Site.Params.links.mailto }}" target="_blank" rel="noopener" title="{{ i18n "social_links.mail" }}"><i
                         class="mdi mdi-email"></i></a>
                 <a href="{{ .Site.Params.links.keybase }}" target="_blank" rel="noopener" title="Keybase"><i
                         class="mdi mdi-key-chain-variant"></i></a>
-                <a href="{{ .Site.BaseURL }}/public-key.asc" target="_blank" rel="noopener" title="My GPG key"><i
+                <a href="{{ .Site.Params.links.blog }}" target="_blank" rel="noopener" title="{{ i18n "social_links.blog" }}"><i
+                        class="mdi mdi-newspaper"></i></a>
+                <a href="{{ .Site.BaseURL }}public-key.asc" target="_blank" rel="noopener" title="{{ i18n "social_links.gpg" }}"><i
                         class="mdi mdi-key-link"></i></a>
                 <!--/sse-->
             </div>
@@ -201,12 +203,8 @@
             <div class="container" data-aos="fade-up">
 
                 <div class="section-title">
-                    <h2>About</h2>
-                    <p>Welcome to my website !<br>
-                        I am an autodidact developer, I love to maintain and improve code.<br>
-                        I hope you will enjoy my website and see interesting things.<br>
-                        (I forgot to say I buy domain names, just like collecting stamps ^^)<br>
-                    </p>
+                    <h2>{{ i18n "about.header" }}</h2>
+                    <p>{{ i18n "about.contents" | safeHTML }}</p>
                 </div>
 
                 <div class="row">
@@ -219,8 +217,8 @@
             <div class="container" data-aos="fade-up">
 
                 <div class="section-title">
-                    <h2>{{ i18n "languages_and_tools_title" }}</h2>
-                    <p>{{ i18n "languages_and_tools_intro" }}</p>
+                    <h2>{{ i18n "languages_and_tools.title" }}</h2>
+                    <p>{{ i18n "languages_and_tools.intro" }}</p>
                 </div>
 
                 <div class="row">
@@ -297,11 +295,11 @@
             <div class="container" data-aos="fade-up">
 
                 <div class="section-title">
-                    <h2>{{ i18n "opensource_projects_title" }}</h2>
-                    <p>{{ i18n "opensource_projects_intro" }}</p>
+                    <h2>{{ i18n "opensource_projects.title" }}</h2>
+                    <p>{{ i18n "opensource_projects.intro" }}</p>
                 </div>
 
-                <h2><i class="mdi mdi-chevron-right"></i>&nbsp;Projects</h2>
+                <h2><i class="mdi mdi-chevron-right"></i>&nbsp;{{ i18n "opensource_projects.section.projects" }}</h2>
 
                 <div class="row">
 
@@ -330,7 +328,7 @@
 
                 </div>
 
-                <h2><i class="mdi mdi-chevron-right"></i>&nbsp;Long term support</h2>
+                <h2><i class="mdi mdi-chevron-right"></i>&nbsp;{{ i18n "opensource_projects.section.lts" }}</h2>
 
                 <div class="row">
 
@@ -621,15 +619,13 @@
                         class="mdi mdi-linkedin"></i></a>
                 <a href="{{ .Site.Params.links.stackOverflow }}" target="_blank" rel="noopener"
                     title="Stack Overflow"><i class="mdi mdi-stack-overflow"></i></a>
-                <a href="{{ .Site.Params.links.mailto }}" target="_blank" rel="noopener" title="Email"><i
+                <a href="{{ .Site.Params.links.mailto }}" target="_blank" rel="noopener" title="{{ i18n "social_links.mail" }}"><i
                         class="mdi mdi-email"></i></a>
                 <a href="{{ .Site.Params.links.keybase }}" target="_blank" rel="noopener" title="Keybase"><i
                         class="mdi mdi-key-chain-variant"></i></a>
-                <a href="{{ .Site.Params.links.blog }}" target="_blank" rel="noopener" title="My blog"><i
+                <a href="{{ .Site.Params.links.blog }}" target="_blank" rel="noopener" title="{{ i18n "social_links.blog" }}"><i
                         class="mdi mdi-newspaper"></i></a>
-                <a href="{{ .Site.Params.links.blog }}" target="_blank" rel="noopener" title="My blog"><i
-                        class="mdi mdi-newspaper"></i></a>
-                <a href="{{ .Site.BaseURL }}/public-key.asc" target="_blank" rel="noopener" title="My GPG key"><i
+                <a href="{{ .Site.BaseURL }}public-key.asc" target="_blank" rel="noopener" title="{{ i18n "social_links.gpg" }}"><i
                         class="mdi mdi-key-link"></i></a>
                 <!--/sse-->
             </div>

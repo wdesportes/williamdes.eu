@@ -15,11 +15,9 @@ other = "developer that boosts your code"
 [i_m_a.Freelancer]
 other = "Freelancer"
 
-[languages_and_tools_title]
-other = "Languages and tools"
-
-[languages_and_tools_intro]
-other = "Here are some of the languages and tools I use and have good knowledge about."
+[languages_and_tools]
+title = "Languages and tools"
+intro = "Here are some of the languages and tools I use and have good knowledge about."
 
 [pma_team_member]
 other = "phpMyAdmin team member"
@@ -61,8 +59,24 @@ content = "Ma mission chez Needone en tant que développeur full-stack était d'
 job_title = "Full-stack developer"
 content = "Depuis 2018 je suis membre de la team phpMyAdmin, j'y ai contribué sur mon temps libre jusqu'en 2021. Désormais je travaille pour phpMyAdmin la majorité de mon temps en tant que freelance."
 
-[opensource_projects_title]
-other = "Open-source projects"
+[opensource_projects]
+title = "Open-source projects"
+intro = "This open-source projects I maintain or collaborate to."
+[opensource_projects.section]
+projects = "Projects"
+lts = "Long term support"
 
-[opensource_projects_intro]
-other = "This open-source projects I maintain or collaborate to."
+[about]
+header = "About"
+contents = """
+Welcome to my website !<br>
+I am an autodidact developer, I love to maintain and improve code.<br>
+I hope you will enjoy my website and see interesting things.<br>
+(I forgot to say I buy domain names, just like collecting stamps ^^)<br>
+"""
+
+
+[social_links]
+mail = "Email"
+blog = "My blog"
+gpg = "My GPG key"

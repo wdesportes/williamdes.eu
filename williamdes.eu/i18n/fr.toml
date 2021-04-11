@@ -62,13 +62,13 @@ content = "Depuis 2018 je suis membre de la team phpMyAdmin, j'y ai contribué s
 
 [opensource_projects]
 title = "Projets Open-source"
-intro = "Les projets open-source je maintien ou auxquels je collabore."
+intro = "Les projets open-source que je maintien ou auxquels je collabore."
 [opensource_projects.section]
 projects = "Projets"
 lts = "Support Long Terme"
 
 [about]
-header = "About"
+header = "À-propos"
 contents = """
 Bienvenue sur mon sie !<br>
 Je suis un développeur autodidacte, j'aime maintenir et améliorer du code.<br>

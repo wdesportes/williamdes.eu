@@ -24,11 +24,8 @@ other = "membre de la team phpMyAdmin"
 
 [footer]
 
-[footer.designed_by]
-other = "Thème conçu par"
-
-[footer.motd]
-other = "“Je voulais vivre la vraie vie, une vie différente. Je ne voulais pas aller au même endroit tous les jours pour y voir les mêmes gens et y faire le même travail. Je voulais des défis intéressants.” - Harrison Ford"
+designed_by = "Thème conçu par"
+motd = "“Je voulais vivre la vraie vie, une vie différente. Je ne voulais pas aller au même endroit tous les jours pour y voir les mêmes gens et y faire le même travail. Je voulais des défis intéressants.” - Harrison Ford"
 
 [menu]
 

@@ -24,11 +24,8 @@ other = "phpMyAdmin team member"
 
 [footer]
 
-[footer.designed_by]
-other = "Theme designed by"
-
-[footer.motd]
-other = "“I wanted to live the life, a different life. I didn't want to go to the same place every day and see the same people and do the same job. I wanted interesting challenges.” - Harrison Ford"
+designed_by = "Theme designed by"
+motd = "“I wanted to live the life, a different life. I didn't want to go to the same place every day and see the same people and do the same job. I wanted interesting challenges.” - Harrison Ford"
 
 [menu]
 [menu.labels]

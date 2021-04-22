@@ -67,7 +67,7 @@ lts = "Support Long Terme"
 [about]
 header = "À-propos"
 contents = """
-Bienvenue sur mon sie !<br>
+Bienvenue sur mon site !<br>
 Je suis un développeur autodidacte, j'aime maintenir et améliorer du code.<br>
 J'espère que vous apprécierez mon site web et y trouverez des choses intéressantes.<br>
 (J'ai oublié de mentionner que j'achète des noms de domaine, comme si c'était une collection de timbres ^^)<br>

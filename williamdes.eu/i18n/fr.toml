@@ -77,3 +77,28 @@ J'espère que vous apprécierez mon site web et y trouverez des choses intéress
 mail = "E-mail"
 blog = "Mon blog"
 gpg = "Ma clef GPG"
+
+[open-source-projects.libs]
+php-i18n-l10n = "Une librairie pour étendre Twig à l'i18n avec le support des fichiers .mo, .po."
+mariadb-mysql-kbs = """
+Une librairie pour accéder à la documentation des variables serveur pour MariaDb et MySQL.<br>
+Actuellement utilisé dans phpMyAdmin.
+"""
+doctum = """
+Un générateur de documentation, anciennement appelé Sami.<br>
+Il fut abandonné il y a longtemps, j'ai donc fourché le projet.<br>
+Actuellement utilisé par <a href="https://laravel.com/api/5.8/index.html">Laravel</a> et <a href="https://api.silverstripe.org/4/index.html">le CMS Silverstripe</a>
+"""
+laravel-fcm = """
+Une version alternative d'une librarie pour envoyer des notifications "push".<br>L'auteur ne répondait plus, j'ai fourché le projet pour en assurer sa maintenance.
+"""
+
+[facts]
+header = "Faits"
+header-description = "Des faits."
+email = "Email"
+email-description = "J'ai créé mon email en 2010 chez Laposte.net."
+minecraft = "Minecraft"
+minecraft-description = "J'ai créé mon compte en 2012."
+first-domain-name = "Premier nom de domaine"
+first-domain-name-description = "J'ai enregistré wdes.fr en 2014."

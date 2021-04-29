@@ -77,3 +77,29 @@ I hope you will enjoy my website and see interesting things.<br>
 mail = "Email"
 blog = "My blog"
 gpg = "My GPG key"
+
+[open-source-projects.libs]
+php-i18n-l10n = "A lib that brings Twig i18n with .mo, .po files support."
+mariadb-mysql-kbs = """
+A lib that gives you documentation links and data for your MariaDb/MySQL server variables.<br>
+Currently used in phpMyAdmin.
+"""
+doctum = """
+An API documentation generator, previously named Sami.<br>
+It was abandonned since a long time, I took up maintenance with a fork.<br>
+Currently used by <a href="https://laravel.com/api/5.8/index.html">Laravel</a> and <a href="https://api.silverstripe.org/4/index.html">Silverstripe CMS</a>
+"""
+laravel-fcm = """
+A fork of a lib to send push-notifications.<br>The author did not respond onto, I forked it and maintain it.
+"""
+
+[facts]
+header = "Facts"
+header-description = "Some facts."
+email = "Email"
+email-description = "I created my first email in 2010 at Laposte.net."
+minecraft = "Minecraft"
+minecraft-description = "I created my account in 2012."
+first-domain-name = "First domain name"
+first-domain-name-description = "I created wdes.fr in 2014."
+

@@ -4,30 +4,6 @@
   <url>
     <loc>https://williamdes.eu/fr/.html</loc>
   </url><url>
-    <loc>https://williamdes.eu/fr/categories.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://williamdes.eu/en/categories.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://williamdes.eu/fr/categories.html"
-                />
-  </url><url>
-    <loc>https://williamdes.eu/fr/tags.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://williamdes.eu/en/tags.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://williamdes.eu/fr/tags.html"
-                />
-  </url><url>
     <loc>https://williamdes.eu/fr/</loc>
     <xhtml:link
                 rel="alternate"

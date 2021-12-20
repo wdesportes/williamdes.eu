@@ -86,7 +86,7 @@
         | minify
         | fingerprint "sha512" }}
     <link href="{{ $mainStyle.Permalink }}" rel="stylesheet" integrity="{{ $mainStyle.Data.Integrity }}" crossorigin="anonymous">
-    <link rel="preload" href="{{ $mainStyle.Permalink }}" as="style"integrity="{{ $mainStyle.Data.Integrity }}" crossorigin="anonymous">
+    <link rel="preload" href="{{ $mainStyle.Permalink }}" as="style" integrity="{{ $mainStyle.Data.Integrity }}" crossorigin="anonymous">
 
     {{ $options := (dict "targetPath" "assets/vendor/MaterialDesignIcons/css/materialdesignicons.min.css" "outputStyle" "compressed" "enableSourceMap" true) }}
     {{ $mdiStyle := resources.Get "vendor/MaterialDesignIcons/scss/materialdesignicons.scss"
@@ -260,8 +260,7 @@
                                 <i class="icon-laravel"></i>
                             </div>
                             <h4>Framework PHP</h4>
-                            <p><a href="https://laravel.com" target="_blank" rel="noopener"
-                                    rel="noopener nofollow"><b>Laravel</b></a>
+                            <p><a href="https://laravel.com" target="_blank" rel="noopener nofollow"><b>Laravel</b></a>
                             </p>
                         </div>
                     </div>

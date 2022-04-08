@@ -680,10 +680,8 @@
     <script src="{{ $typedLibJs.Permalink }}" integrity="{{ $typedLibJs.Data.Integrity }}" crossorigin="anonymous"></script>
 
     <!-- Template Main JS File -->
-    {{ $options := (dict "targetPath" "assets/js/main.js" "enableSourceMap" true) }}
     {{ $mainJs := resources.Get "js/main.js"
-        | js.Build $options
-        | minify
+        | js.Build (dict "sourcemap" "external" "targetPath" "assets/js/main.js" "minify" true)
         | fingerprint "sha512"
     }}
     <script src="{{ $mainJs.Permalink }}" integrity="{{ $mainJs.Data.Integrity }}" crossorigin="anonymous"></script>

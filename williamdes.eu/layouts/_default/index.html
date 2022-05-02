@@ -45,12 +45,13 @@
                         "url": "https://www.phpmyadmin.net"
             },
             "sameAs": [
-                "https://stackoverflow.com/users/5155484/william-desportes",
-                "https://gitlab.com/williamdes",
-                "https://github.com/williamdes",
-                "https://twitter.com/wdesportes",
-                "https://www.linkedin.com/in/williamdes",
-                "https://blog.williamdes.eu"
+                "{{ .Site.Params.links.stackOverflow }}",
+                "{{ .Site.Params.links.gitlab }}",
+                "{{ .Site.Params.links.github }}",
+                "{{ .Site.Params.links.twitter }}",
+                "{{ .Site.Params.links.linkedin }}",
+                "{{ .Site.Params.links.keybase }}",
+                "{{ .Site.Params.links.blog }}"
             ]
         }
     </script>
@@ -189,6 +190,8 @@
             </p>
             <div class="social-links">
                 <!--sse-->
+                <a href="{{ .Site.Params.links.mastodon }}" target="_blank" rel="me noopener" title="Mastodon"><i
+                    class="mdi mdi-mastodon"></i></a>
                 <a href="{{ .Site.Params.links.github }}" target="_blank" rel="noopener" title="GitHub"><i
                     class="mdi mdi-github"></i></a>
                 <a href="{{ .Site.Params.links.gitlab }}" target="_blank" rel="noopener" title="GitLab"><i
@@ -631,6 +634,8 @@
             <p>{{ i18n "footer.motd" }}</p>
             <div class="social-links">
                 <!--sse-->
+                <a href="{{ .Site.Params.links.mastodon }}" target="_blank" rel="me noopener" title="Mastodon"><i
+                    class="mdi mdi-mastodon"></i></a>
                 <a href="{{ .Site.Params.links.github }}" target="_blank" rel="noopener" title="GitHub"><i
                         class="mdi mdi-github"></i></a>
                 <a href="{{ .Site.Params.links.gitlab }}" target="_blank" rel="noopener" title="GitLab"><i

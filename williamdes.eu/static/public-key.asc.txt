@@ -2,11 +2,11 @@ Exported using: gpg --armor --export --export-options export-local-sigs C4D91FDF
 
 gpg --refresh-keys
 gpg -v --check-signatures C4D91FDFCEF6B4A3C653FD7890A0EF1B8251A889
-gpg: Remarque : la clef de signature 6A37F5B1D7FB174D a expiré le mar. 08 déc. 2015 11:00:15 CET
-gpg: Remarque : la clef de signature 6A37F5B1D7FB174D a expiré le mar. 08 déc. 2015 11:00:15 CET
-pub   rsa4096 2015-05-12 [SC] [expire : 2070-01-01]
+gpg: Note: signature key 6A37F5B1D7FB174D expired Tue Dec  8 11:00:15 2015 CET
+gpg: Note: signature key 6A37F5B1D7FB174D expired Tue Dec  8 11:00:15 2015 CET
+pub   rsa4096 2015-05-12 [SC] [expires: 2070-01-01]
       C4D91FDFCEF6B4A3C653FD7890A0EF1B8251A889
-uid          [  ultime ] William Desportes (Wdes.fr) <williamdes@wdes.fr>
+uid           [ultimate] William Desportes (Wdes.fr) <williamdes@wdes.fr>
 sig!3        90A0EF1B8251A889 2020-11-07  William Desportes (Wdes.fr) <williamdes@wdes.fr>
 sig!3        90A0EF1B8251A889 2015-05-12  William Desportes (Wdes.fr) <williamdes@wdes.fr>
 sig!3        FEFC65D181AF644A 2018-11-17  Marc Delisle <marc@infomarc.info>
@@ -18,12 +18,12 @@ sig!         6A16FD38AFC89CC8 2020-11-14  Maurício Meneghini Fauth <mauricio@fa
 sig!         48E160C2F1FE274E 2023-03-12  Cédric Boutillier <boutil@debian.org>
 sig!3        77C0C75E7B650808 2023-05-02  James Valleroy <jvalleroy@mailbox.org>
 sig!         F823A2729883C97C 2023-05-19  Lucas Kanashiro <kanashiro@debian.org>
-uid          [  never ] [jpeg image of size 5283]
+uid           [  never ] [jpeg image of size 5283]
 sig!3        90A0EF1B8251A889 2020-11-07  William Desportes (Wdes.fr) <williamdes@wdes.fr>
 sig!3        90A0EF1B8251A889 2020-11-07  William Desportes (Wdes.fr) <williamdes@wdes.fr>
 sig!3        77C0C75E7B650808 2023-05-02  James Valleroy <jvalleroy@mailbox.org>
 sig!         F823A2729883C97C 2023-05-19  Lucas Kanashiro <kanashiro@debian.org>
-uid          [  ultime ] William Desportes (Wdes.eu) <williamdes@wdes.eu>
+uid           [ultimate] William Desportes (Wdes.eu) <williamdes@wdes.eu>
 sig!3        90A0EF1B8251A889 2020-11-07  William Desportes (Wdes.fr) <williamdes@wdes.fr>
 sig!3        FEFC65D181AF644A 2018-11-17  Marc Delisle <marc@infomarc.info>
 sig!         9D46C488E4368302 2020-11-03  Emilio Pozuelo Monfort <emilio@pozuelo.org>
@@ -33,13 +33,13 @@ sig!         9C27B31342B7511D 2020-11-10  Michal Čihař <michal@cihar.com>
 sig!         48E160C2F1FE274E 2023-03-12  Cédric Boutillier <boutil@debian.org>
 sig!3        77C0C75E7B650808 2023-05-02  James Valleroy <jvalleroy@mailbox.org>
 sig!         F823A2729883C97C 2023-05-19  Lucas Kanashiro <kanashiro@debian.org>
-uid          [  never ] [jpeg image of size 2269]
+uid           [  never ] [jpeg image of size 2269]
 sig!3        90A0EF1B8251A889 2018-04-16  William Desportes (Wdes.fr) <williamdes@wdes.fr>
 sig!3        77C0C75E7B650808 2023-05-02  James Valleroy <jvalleroy@mailbox.org>
 sig!         823E967606C34B96 2020-11-07  Utkarsh Gupta <utkarsh@ubuntu.com>
 sig!         F823A2729883C97C 2023-05-19  Lucas Kanashiro <kanashiro@debian.org>
 sig!3        FEFC65D181AF644A 2018-11-17  Marc Delisle <marc@infomarc.info>
-sub   rsa4096 2015-05-12 [E] [expire : 2070-01-01]
+sub   rsa4096 2015-05-12 [E] [expires: 2070-01-01]
 sig!         90A0EF1B8251A889 2020-11-07  William Desportes (Wdes.fr) <williamdes@wdes.fr>
 
 gpg: 30 good signatures

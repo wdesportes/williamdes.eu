@@ -49,13 +49,17 @@ email = "williamdes@wdes.fr"
 [resume.pro]
 title = "Expérience professionnelle"
 
+[resume.pro.wdes]
+job_title = "Chef d'entreprise"
+content = "Depuis 2017 l'entreprise Wdes SAS créé des logiciels open-source et assure leur maintenance. J'y travaille à plein temps depuis 2020. L'entreprise propose également des services d'infrastructure: Emails, Sentry, machines virtuelles..."
+
 [resume.pro.needone]
 job_title = "Développeur full-stack"
 content = "Ma mission chez Needone en tant que développeur full-stack était d'assurer la maintenance de marketplaces ainsi que de participer à leur création.J'ai également réalisé des tâches dev-ops."
 
 [resume.pro.phpmyadmin]
 job_title = "Développeur full-stack"
-content = "Depuis 2018 je suis membre de la team phpMyAdmin, j'y ai contribué sur mon temps libre jusqu'en 2021. Désormais je travaille pour phpMyAdmin la majorité de mon temps en tant que freelance."
+content = "Depuis 2018 je suis membre de la team phpMyAdmin, j'y contribue sur mon temps libre jusqu'en 2021. Et y ai travaillé en tant que freelance entre 2020 et 2022."
 
 [opensource_projects]
 title = "Projets Open-source"
@@ -79,6 +83,7 @@ blog = "Mon blog"
 gpg = "Ma clef GPG"
 
 [open-source-projects.libs]
+mail-autodiscover-autoconfig = "Un service web écrit en Rust pour aider les logiciels et applications d'email à détecter les paramètres serveur."
 php-i18n-l10n = "Une librairie pour étendre Twig à l'i18n avec le support des fichiers .mo, .po."
 mariadb-mysql-kbs = """
 Une librairie pour accéder à la documentation des variables serveur pour MariaDb et MySQL.<br>
@@ -87,7 +92,7 @@ Actuellement utilisé dans phpMyAdmin.
 doctum = """
 Un générateur de documentation, anciennement appelé Sami.<br>
 Il fut abandonné il y a longtemps, j'ai donc fourché le projet.<br>
-Actuellement utilisé par <a href="https://laravel.com/api/5.8/index.html">Laravel</a> et <a href="https://api.silverstripe.org/4/index.html">le CMS Silverstripe</a>
+Actuellement utilisé par <a href="https://laravel.com/api/8.x/index.html">Laravel</a> et <a href="https://api.silverstripe.org/5/index.html">le CMS Silverstripe</a>
 """
 laravel-fcm = """
 Une version alternative d'une librarie pour envoyer des notifications "push".<br>L'auteur ne répondait plus, j'ai fourché le projet pour en assurer sa maintenance.

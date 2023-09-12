@@ -48,13 +48,17 @@ email = "williamdes@wdes.fr"
 [resume.pro]
 title = "Professional Experience"
 
+[resume.pro.wdes]
+job_title = "Entrepreneur"
+content = "Since 2017, the company Wdes SAS creates open-source software and ensures their maintenance. I work there full time since 2020. The company also offers infrastructure services: Emails, Sentry, virtual machines..."
+
 [resume.pro.needone]
 job_title = "Full-stack developer"
 content = "Ma mission chez Needone en tant que développeur full-stack était d'assurer la maintenance de marketplaces ainsi que de participer à leur création.J'ai également réalisé des tâches dev-ops."
 
 [resume.pro.phpmyadmin]
 job_title = "Full-stack developer"
-content = "Depuis 2018 je suis membre de la team phpMyAdmin, j'y ai contribué sur mon temps libre jusqu'en 2021. Désormais je travaille pour phpMyAdmin la majorité de mon temps en tant que freelance."
+content = "Since 2018 I have been a member of the phpMyAdmin team, I contribute on my free time since 2021. And worked there as a freelancer between 2020 and 2022."
 
 [opensource_projects]
 title = "Open-source projects"
@@ -79,6 +83,7 @@ blog = "My blog"
 gpg = "My GPG key"
 
 [open-source-projects.libs]
+mail-autodiscover-autoconfig = "A web service written in Rust to help email software and mobile apps to detect server settings."
 php-i18n-l10n = "A lib that brings Twig i18n with .mo, .po files support."
 mariadb-mysql-kbs = """
 A lib that gives you documentation links and data for your MariaDb/MySQL server variables.<br>
@@ -87,7 +92,7 @@ Currently used in phpMyAdmin.
 doctum = """
 An API documentation generator, previously named Sami.<br>
 It was abandonned since a long time, I took up maintenance with a fork.<br>
-Currently used by <a href="https://laravel.com/api/5.8/index.html">Laravel</a> and <a href="https://api.silverstripe.org/4/index.html">Silverstripe CMS</a>
+Currently used by <a href="https://laravel.com/api/8.x/index.html">Laravel</a> and <a href="https://api.silverstripe.org/5/index.html">Silverstripe CMS</a>
 """
 laravel-fcm = """
 A fork of a lib to send push-notifications.<br>The author did not respond onto, I forked it and maintain it.

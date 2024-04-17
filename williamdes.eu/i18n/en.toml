@@ -15,6 +15,9 @@ other = "developer that boosts your code"
 [i_m_a.Freelancer]
 other = "Freelancer"
 
+[i_m_a.Security]
+other = "Cybersecurity white-hat"
+
 [languages_and_tools]
 title = "Languages and tools"
 intro = "Here are some of the languages and tools I use and have good knowledge about."
@@ -72,8 +75,7 @@ header = "About"
 contents = """
 Welcome to my website !<br>
 I am an autodidact developer, I love to maintain and improve code.<br>
-I hope you will enjoy my website and see interesting things.<br>
-(I forgot to say I buy domain names, just like collecting stamps ^^)<br>
+I hope you will enjoy my website and find interesting things.<br>
 """
 
 
@@ -115,7 +117,9 @@ second-domain-name = "Second domain name"
 second-domain-name-description = "I bought in 2018 wdes.eu from it's owner."
 debian-dm = "Became a Debian Maintainer"
 debian-dm-description = "After a lot of packaging work at Debian, I asked to be a Debian Maintainer."
-freelance-2021 = "Started to be a freelance"
-freelance-2021-description = "I decided to work differently and started to be a freelance in January of 2021. Company number: 89119884800014"
+freelance-2021-2022 = "Freelance"
+freelance-2021-2022-description = "I decided to work differently and started to be a freelance in January of 2021, until the end of 2022."
 company-2021 = "My company starts business"
 company-2021-description = "My company did start business in October of 2021."
+company-2023 = "Full time at Wdes SAS"
+company-2023-description = "I now work full time for my company Wdes SAS."

@@ -1,45 +1,44 @@
-Exported using: gpg --armor --export --export-options export-local-sigs C4D91FDFCEF6B4A3C653FD7890A0EF1B8251A889
+Exported using: gpg --with-fingerprint --with-keygrip --keyid-format long --armor --export --export-options export-local-sigs C4D91FDFCEF6B4A3C653FD7890A0EF1B8251A889
 
 gpg --refresh-keys
 gpg -v --check-signatures C4D91FDFCEF6B4A3C653FD7890A0EF1B8251A889
-gpg: Note: signature key 6A37F5B1D7FB174D expired Tue Dec  8 11:00:15 2015 CET
-gpg: Note: signature key 6A37F5B1D7FB174D expired Tue Dec  8 11:00:15 2015 CET
-pub   rsa4096 2015-05-12 [SC] [expires: 2070-01-01]
-      C4D91FDFCEF6B4A3C653FD7890A0EF1B8251A889
-uid           [ultimate] William Desportes (Wdes.fr) <williamdes@wdes.fr>
-sig!3        90A0EF1B8251A889 2020-11-07  William Desportes (Wdes.fr) <williamdes@wdes.fr>
-sig!3        90A0EF1B8251A889 2015-05-12  William Desportes (Wdes.fr) <williamdes@wdes.fr>
-sig!3        FEFC65D181AF644A 2018-11-17  Marc Delisle <marc@infomarc.info>
-sig!         9D46C488E4368302 2020-11-03  Emilio Pozuelo Monfort <emilio@pozuelo.org>
-sig!         823E967606C34B96 2020-11-07  Utkarsh Gupta <utkarsh@ubuntu.com>
-sig!3        90A0EF1B8251A889 2018-04-16  William Desportes (Wdes.fr) <williamdes@wdes.fr>
-sig!         9C27B31342B7511D 2020-11-10  Michal Čihař <michal@cihar.com>
+pub   rsa4096/90A0EF1B8251A889 2015-05-12 [C] [expires: 2038-07-21]
+      Key fingerprint = C4D9 1FDF CEF6 B4A3 C653  FD78 90A0 EF1B 8251 A889
+      Keygrip = C02B5DC39D2F56D4E79F197A5A205DB7312E2756
+uid                 [ultimate] William Desportes (Wdes.fr) <williamdes@wdes.fr>
+sig!3        90A0EF1B8251A889 2015-05-12  [self-signature]
+sig!3        90A0EF1B8251A889 2018-04-16  [self-signature]
+sig!3        90A0EF1B8251A889 2020-11-07  [self-signature]
+sig!3        90A0EF1B8251A889 2025-07-26  [self-signature]
+sig!         48E160C2F1FE274E 2023-03-12  Cédric Boutillier <boutil@debian.org>
 sig!         6A16FD38AFC89CC8 2020-11-14  Maurício Meneghini Fauth <mauricio@fauth.dev>
-sig!         48E160C2F1FE274E 2023-03-12  Cédric Boutillier <boutil@debian.org>
 sig!3        77C0C75E7B650808 2023-05-02  James Valleroy <jvalleroy@mailbox.org>
-sig!         F823A2729883C97C 2023-05-19  Lucas Kanashiro <kanashiro@debian.org>
-uid           [  never ] [jpeg image of size 5283]
-sig!3        90A0EF1B8251A889 2020-11-07  William Desportes (Wdes.fr) <williamdes@wdes.fr>
-sig!3        90A0EF1B8251A889 2020-11-07  William Desportes (Wdes.fr) <williamdes@wdes.fr>
-sig!3        77C0C75E7B650808 2023-05-02  James Valleroy <jvalleroy@mailbox.org>
-sig!         F823A2729883C97C 2023-05-19  Lucas Kanashiro <kanashiro@debian.org>
-uid           [ultimate] William Desportes (Wdes.eu) <williamdes@wdes.eu>
-sig!3        90A0EF1B8251A889 2020-11-07  William Desportes (Wdes.fr) <williamdes@wdes.fr>
-sig!3        FEFC65D181AF644A 2018-11-17  Marc Delisle <marc@infomarc.info>
-sig!         9D46C488E4368302 2020-11-03  Emilio Pozuelo Monfort <emilio@pozuelo.org>
-sig!         823E967606C34B96 2020-11-07  Utkarsh Gupta <utkarsh@ubuntu.com>
-sig!3        90A0EF1B8251A889 2018-04-16  William Desportes (Wdes.fr) <williamdes@wdes.fr>
+sig!         823E967606C34B96 2020-11-07  Utkarsh Gupta <utkarsh@debian.org>
 sig!         9C27B31342B7511D 2020-11-10  Michal Čihař <michal@cihar.com>
-sig!         48E160C2F1FE274E 2023-03-12  Cédric Boutillier <boutil@debian.org>
-sig!3        77C0C75E7B650808 2023-05-02  James Valleroy <jvalleroy@mailbox.org>
-sig!         F823A2729883C97C 2023-05-19  Lucas Kanashiro <kanashiro@debian.org>
-uid           [  never ] [jpeg image of size 2269]
-sig!3        90A0EF1B8251A889 2018-04-16  William Desportes (Wdes.fr) <williamdes@wdes.fr>
-sig!3        77C0C75E7B650808 2023-05-02  James Valleroy <jvalleroy@mailbox.org>
-sig!         823E967606C34B96 2020-11-07  Utkarsh Gupta <utkarsh@ubuntu.com>
+sig!         9D46C488E4368302 2020-11-03  Emilio Pozuelo Monfort <emilio@pozuelo.org>
 sig!         F823A2729883C97C 2023-05-19  Lucas Kanashiro <kanashiro@debian.org>
 sig!3        FEFC65D181AF644A 2018-11-17  Marc Delisle <marc@infomarc.info>
-sub   rsa4096 2015-05-12 [E] [expires: 2070-01-01]
-sig!         90A0EF1B8251A889 2020-11-07  William Desportes (Wdes.fr) <williamdes@wdes.fr>
+uid                 [ultimate] William Desportes (Wdes.eu) <williamdes@wdes.eu>
+sig!3        90A0EF1B8251A889 2018-04-16  [self-signature]
+sig!3        90A0EF1B8251A889 2020-11-07  [self-signature]
+sig!3        90A0EF1B8251A889 2025-07-26  [self-signature]
+sig!         48E160C2F1FE274E 2023-03-12  Cédric Boutillier <boutil@debian.org>
+sig!3        77C0C75E7B650808 2023-05-02  James Valleroy <jvalleroy@mailbox.org>
+sig!         823E967606C34B96 2020-11-07  Utkarsh Gupta <utkarsh@debian.org>
+sig!         9C27B31342B7511D 2020-11-10  Michal Čihař <michal@cihar.com>
+sig!         9D46C488E4368302 2020-11-03  Emilio Pozuelo Monfort <emilio@pozuelo.org>
+sig!         F823A2729883C97C 2023-05-19  Lucas Kanashiro <kanashiro@debian.org>
+sig!3        FEFC65D181AF644A 2018-11-17  Marc Delisle <marc@infomarc.info>
+sub   rsa4096/A7160CB843885E2E 2015-05-12 [E] [expires: 2027-12-31]
+      Keygrip = 2B060AC16CA05B1FD3B1C544709EC6881E059FE3
+sig!         90A0EF1B8251A889 2025-07-26  [self-signature]
+sub   ed25519/70684F4717D49A31 2025-07-26 [S] [expires: 2033-01-01]
+      Keygrip = 405286DFAD7F11775BACF10FFBD2EB1BD4D56BAA
+sig!         90A0EF1B8251A889 2025-07-26  [self-signature]
+sub   cv25519/9854764244799AC0 2025-07-26 [E] [expires: 2033-01-01]
+      Keygrip = 2A23AD227E0FE066BB2804B3117FE558EEC8496E
+sig!         90A0EF1B8251A889 2025-07-26  [self-signature]
+sub   ed25519/5D94BCA3B5DC0B91 2025-07-26 [A] [expires: 2033-01-01]
+      Keygrip = 48532D5E27DE81C3B59A7680EDAFA761E13132D2
+sig!         90A0EF1B8251A889 2025-07-26  [self-signature]
 
-gpg: 30 good signatures

@@ -7,7 +7,7 @@ KEY_ID="C4D91FDFCEF6B4A3C653FD7890A0EF1B8251A889"
 
 ME=$(realpath $(dirname $0))
 
-CMD_GPG_EXPORT="gpg --armor --export --export-options export-local-sigs ${KEY_ID}"
+CMD_GPG_EXPORT="gpg --with-fingerprint --with-keygrip --keyid-format long --armor --export --export-options export-local-sigs ${KEY_ID}"
 
 echo "Exported using: $CMD_GPG_EXPORT\n" > $ME/public-key.asc.txt
 echo "gpg --refresh-keys" >> $ME/public-key.asc.txt

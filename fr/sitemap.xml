@@ -2,18 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://williamdes.eu/fr/.html</loc>
-  </url><url>
-    <loc>https://williamdes.eu/fr/</loc>
+    <loc>https://williamdes.eu/fr/index.html</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://williamdes.eu/en/"
+                href="https://williamdes.eu/en/index.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://williamdes.eu/fr/"
+                href="https://williamdes.eu/fr/index.html"
                 />
   </url>
 </urlset>

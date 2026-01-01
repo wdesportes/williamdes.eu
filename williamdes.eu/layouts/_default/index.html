@@ -5,21 +5,21 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>{{ .Title }}</title>
-    <meta name="description" content="{{ .Description | default (.Summary | default .Site.Params.description ) }}">
+    <title>{{ .Language.Title }}</title>
+    <meta name="description" content="{{ i18n "index-page.desc" }}">
     <meta name="keywords" content="{{ (delimit .Keywords ",") | default .Site.Params.keywords }}">
     <!--sse-->
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@wdesportes" />
     <meta name="twitter:title" content="William Desportes" />
-    <meta name="twitter:description" content="{{ .Description | default (.Summary | default .Site.Params.description ) }}" />
+    <meta name="twitter:description" content="{{ i18n "index-page.desc" }}" />
     <meta name="twitter:image" content="{{ .Site.BaseURL }}assets/logo/williamdes_x1024.png" />
     <meta name="p:domain_verify" content="2d287a768e344c30a89d1900add7724f" />
     <meta property="og:title" content="William Desportes" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="{{ .Site.BaseURL }}" />
     <meta property="og:image" content="{{ .Site.BaseURL }}assets/logo/williamdes_x1024.png" />
-    <meta property="og:description" content="{{ .Description | default (.Summary | default .Site.Params.description ) }}" />
+    <meta property="og:description" content="{{ i18n "index-page.desc" }}" />
 
     <script type="application/ld+json">
         {

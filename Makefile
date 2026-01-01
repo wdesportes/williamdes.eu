@@ -16,8 +16,8 @@ serve:
 	docker run --name ${CONTAINER_NAME} --rm -v $(PWD):/app -p 8111:8111 --workdir /app/${PROJECT_NAME} ${IMAGE} serve --bind 0.0.0.0 --port 8111 --baseURL localhost
 
 fix-perms:
-	find ./-type d -exec chmod 0777 {} \;
-	find ./-type f -exec chmod 0666 {} \;
+	find ./ -type d -exec chmod 0777 {} \;
+	find ./ -type f -exec chmod 0666 {} \;
 	chmod +x ./williamdes.eu/static/export-gpg.sh
 
 date:

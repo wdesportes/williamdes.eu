@@ -18,6 +18,7 @@ serve:
 fix-perms:
 	find ${PWD} -type d -exec chmod 0777 {} \;
 	find ${PWD} -type f -exec chmod 0666 {} \;
+	chmod +x ${PWD}/williamdes.eu/static/export-gpg.sh
 
 date:
 	date +'%Y-%m-%dT%H:%M:%SZ' --utc
